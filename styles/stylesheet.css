@@ -43,3 +43,23 @@ nav ul {
 nav ul li {
     margin-left: 2rem;
 }
+
+.columns {
+    display: flex;
+}
+
+.card {
+    flex-basis: 100%;
+    border: 1px black solid;
+    margin-left: 2rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.card:first-of-type {
+    margin-left: 0;
+}
+
+.card img {
+    width: 100%;
+}
